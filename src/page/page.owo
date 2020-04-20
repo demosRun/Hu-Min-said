@@ -1,0 +1,197 @@
+<template lang="pug">
+.home
+  plug(_name="topBar" _logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png" _src="https://template.owo.ink/573040ed3cc6230f.owo")
+  ul.elasticstack
+    li
+      .theme 第一期
+      h1 两会首日看点 政协七方面工作可圈可点
+      p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+    li
+      .theme 第二期
+      h1 两会首日看点 政协七方面工作可圈可点
+      p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+    li
+      .theme 第三期
+      h1 两会首日看点 政协七方面工作可圈可点
+      p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+    li
+      .theme 第四期
+      h1 两会首日看点 政协七方面工作可圈可点
+      p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+    li
+      .theme 第五期
+      h1 两会首日看点 政协七方面工作可圈可点
+      p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+    li
+      .theme 第六期
+      h1 两会首日看点 政协七方面工作可圈可点
+      p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+  //- 左右按钮
+  img.left.button(src="@|left.png|" o-hover="grow" o-tap="this.data.ElastiStack.last()")
+  img.right.button(src="@|right.png|" o-hover="grow" o-tap="this.data.ElastiStack.next()")
+  //- 页码
+  ul.pagination
+  plug(_name="copyright" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      ElastiStack: null
+    },
+    created: function () {
+      // 生成index
+      const liNumber = this.queryAll('.elasticstack li')
+      let newHtml = ''
+      for (let index = 0; index < liNumber.length; index++) {
+        const element = liNumber[index];
+        newHtml += `<li o-hover="grow" o-tap="chacgeActive(${index})">${index + 1}</li>`
+      }
+      this.query('.pagination').innerHTML = newHtml
+      setTimeout(() => {
+        this.handleEvent()
+        // 设置第一页为活跃页
+        this.query('.pagination li').classList.add('active')
+        this.data.ElastiStack = new ElastiStack(this.query('.elasticstack'), {
+          loop: false,
+          // handle: ".handle",
+          ratioX: parseInt(document.body.clientWidth * 0.02),
+          ratioZ: parseInt(document.body.clientWidth * -0.02),
+          distDragBack: 100,
+          distDragMax: 200,
+          // pc端禁止拖拽
+          enable: false,
+          atEnd: () => {
+          },
+          atStart: () => {
+            // owo.tool.toast('已经是最前了!');
+          },
+          onUpdateStack: (activeIndex) => {
+            // console.log(activeIndex)
+            const liList = this.queryAll('.pagination li')
+            for (let index = 0; index < liList.length; index++) {
+              const element = liList[index];
+              
+              if (index !== activeIndex) {
+                element.classList.remove('active')
+              } else {
+                // console.log(element)
+                element.classList.add('active')
+              }
+            }
+            this.data.activeIndex = activeIndex
+          }
+        })
+      }, 0);
+    },
+    chacgeActive: function (index) {
+      // console.log(index)
+      this.data.ElastiStack.jump(index)
+    }
+  }
+</script>
+
+
+<style lang="less">
+#copyright {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #d65444;
+}
+.elasticstack {
+  width: 1050px;
+  height: 450px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  bottom: 0;
+  margin: auto;
+  li {
+    width: 890px;
+    height: 310px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px #ccc;
+    padding: 40px 60px;
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.7;
+      img {
+        margin-top: 8px;
+        margin-right: 15px;
+      }
+    }
+  }
+}
+.pagination {
+  background-image: url('@|line.png|');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.theme {
+  background-image: url('@|theme.png|');
+  width: 34px;
+  height: 102px;
+  position: absolute;
+  left: 50px;
+  top: -15px;
+  color: white;
+  line-height: 25px;
+  font-size: 24px;
+  padding: 10px 20px;
+  padding-left: 18px;
+  padding-right: 22px;
+}
+.button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 32%;
+  bottom: 0;
+  margin: auto auto;
+  cursor: pointer;
+}
+.left {
+  left: -1200px;
+}
+.right {
+  right: -1200px;
+}
+.pagination {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat-x: repeat;
+  width: 60%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  bottom: 100px;
+  li {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 28px;
+    color: white;
+    margin: 0 10px;
+    background-image: url('@|bar.png|');
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+  }
+  li.active {
+    opacity: 1;
+    background-image: url('@|active-bar.png|');
+  }
+}
+</style>
