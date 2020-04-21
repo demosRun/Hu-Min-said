@@ -13,7 +13,7 @@
 		},
 		{
 			"name": "viewport",
-			"content": "width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+			"content": "width=device-width, user-scalable=no"
 		},
 		{
 			"name": "format-detection",
@@ -78,10 +78,6 @@
 			"src": "http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"
 		},
 		{
-			"name": "modernizr.custom",
-			"src": "./src/resource/modernizr.custom.js"
-		},
-		{
 			"name": "draggabilly.pkgd.min",
 			"src": "./src/resource/draggabilly.pkgd.min.js"
 		},
@@ -97,6 +93,18 @@
 		{
 			"name": "ie-support",
 			"src": "./owo_modules/ie-support.js"
+		},
+		{
+			"name": "autoScale",
+			"src": "./owo_modules/autoScale.js"
+		},
+		{
+			"name": "check",
+			"src": "./owo_modules/check.js"
+		},
+		{
+			"name": "html2canvas",
+			"src": "./owo_modules/html2canvas.min.js"
 		}
 	],
 	"styleList": [
@@ -115,6 +123,21 @@
 			"name": "page",
 			"src": "./src/page/page.owo",
 			"type": "page"
+		},
+		{
+			"name": "phoneStart",
+			"src": "/src/page/phoneStart.owo",
+			"type": "page"
+		},
+		{
+			"name": "clock",
+			"src": "/src/page/clock.owo",
+			"type": "page"
+		},
+		{
+			"name": "share",
+			"src": "/src/page/share.owo",
+			"type": "page"
 		}
 	],
 	"mode": {
@@ -132,14 +155,15 @@
 			"serverPort": 8000,
 			"server": true,
 			"autoReload": true,
-			"remoteDebug": true,
-			"title": "预览页面"
+			"remoteDebug": false,
+			"title": "预览页面",
+			"startAtHome": true
 		},
 		"build": {
 			"debug": false,
 			"basePath": "./",
 			"alertLink": true,
-			"startAtHome": false,
+			"startAtHome": true,
 			"minifyCss": false,
 			"minifyJs": false,
 			"addVersion": true,
@@ -149,5 +173,6 @@
 			"title": "{TAG_14226_TAG}",
 			"handleLink": true
 		}
-	}
+	},
+	"phoneEnter": "phoneStart"
 }

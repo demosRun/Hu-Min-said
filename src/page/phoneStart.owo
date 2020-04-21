@@ -1,0 +1,32 @@
+<template lang="pug">
+.phoneStart
+  .scale-box
+    img.text(src="@|phone-text-1.png|")
+</template>
+<script>
+module.exports = {
+  created: function () {
+    setTimeout(() => {
+      owo.go({
+        page: 'page',
+        inAnimation: 'moveToLeft',
+        outAnimation: 'moveFromRight',
+        noBack: true
+      })
+    }, 3000)
+  }
+}
+</script>
+<style lang="less">
+.scale-box {
+  background-image: url('@|phone-bg-1.png|')
+}
+.text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+</style>

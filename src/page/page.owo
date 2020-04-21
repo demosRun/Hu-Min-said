@@ -1,57 +1,177 @@
 <template lang="pug">
 .home
-  plug(_name="topBar" _logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png" _src="https://template.owo.ink/573040ed3cc6230f.owo")
+  plug.no-phone(_name="topBar" _logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png" _src="https://template.owo.ink/573040ed3cc6230f.owo")
   ul.elasticstack
-    li
-      .theme 第一期
-      h1 两会首日看点 政协七方面工作可圈可点
-      p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
-    li
-      .theme 第二期
-      h1 两会首日看点 政协七方面工作可圈可点
-      p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
-    li
-      .theme 第三期
-      h1 两会首日看点 政协七方面工作可圈可点
-      p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
-    li
-      .theme 第四期
-      h1 两会首日看点 政协七方面工作可圈可点
-      p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
-    li
-      .theme 第五期
-      h1 两会首日看点 政协七方面工作可圈可点
-      p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
-    li
-      .theme 第六期
-      h1 两会首日看点 政协七方面工作可圈可点
-      p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+  //- 音频播放
+  .audio-box.clear
+    .audio-image(o-tap="switchPlay")
+    .audio-bar
+      .spot
+      .progress
+  //- 音乐播放
+  audio.musicPlay
+  .edit
+    //- 每一期都是一个ul
+    ul
+      li
+        .theme
+        h1 1两会首日看点 政协七方面工作可圈可点
+        p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+        .audio http://flv4.people.com.cn/videofile6/pvmsvideo/2019/3/13/RenJiaHui_2371c0801d09c3ec8c687ad5f890a7db.mp3
+      li
+        .theme
+        h1 2两会首日看点 政协七方面工作可圈可点
+        p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+        .audio http://flv4.people.com.cn/videofile6/pvmsvideo/2019/3/13/RenJiaHui_2371c0801d09c3ec8c687ad5f890a7db.mp3
+      li
+        .theme
+        h1 3两会首日看点 政协七方面工作可圈可点
+        p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+      li
+        .theme
+        h1 4两会首日看点 政协七方面工作可圈可点
+        p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+        .audio http://flv4.people.com.cn/videofile6/pvmsvideo/2019/3/13/RenJiaHui_2371c0801d09c3ec8c687ad5f890a7db.mp3
+      li
+        .theme
+        h1 5两会首日看点 政协七方面工作可圈可点
+        p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+      li
+        .theme
+        h1 6两会首日看点 政协七方面工作可圈可点
+        p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+    ul
+      li
+        .theme
+        h1 两会首日看点 政协七方面工作可圈可点
+        p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+      li
+        .theme
+        h1 两会首日看点 政协七方面工作可圈可点
+        p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+        .audio http://flv4.people.com.cn/videofile6/pvmsvideo/2019/3/13/RenJiaHui_2371c0801d09c3ec8c687ad5f890a7db.mp3
+      li
+        .theme
+        h1 两会首日看点 政协七方面工作可圈可点
+        p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+        .audio http://flv4.people.com.cn/videofile6/pvmsvideo/2019/3/13/RenJiaHui_2371c0801d09c3ec8c687ad5f890a7db.mp3
+      li
+        .theme
+        h1 两会首日看点 政协七方面工作可圈可点
+        p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+      li
+        .theme
+        h1 两会首日看点 政协七方面工作可圈可点
+        p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+      li
+        .theme
+        h1 两会首日看点 政协七方面工作可圈可点
+        p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+    ul
+      li
+        .theme
+        h1 1两会首日看点 政协七方面工作可圈可点
+        p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+      li
+        .theme
+        h1 2两会首日看点 政协七方面工作可圈可点
+        p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+        .audio http://flv4.people.com.cn/videofile6/pvmsvideo/2019/3/13/RenJiaHui_2371c0801d09c3ec8c687ad5f890a7db.mp3
+      li
+        .theme
+        h1 3两会首日看点 政协七方面工作可圈可点
+        p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+        .audio http://flv4.people.com.cn/videofile6/pvmsvideo/2019/3/13/RenJiaHui_2371c0801d09c3ec8c687ad5f890a7db.mp3
+      li
+        .theme
+        h1 4两会首日看点 政协七方面工作可圈可点
+        p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+      li
+        .theme
+        h1 5两会首日看点 政协七方面工作可圈可点
+        p <img src="http://www.people.com.cn/NMediaFile/2020/0420/MAIN202004200924056169879000364.jpg" align="left" width="235">&emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+      li
+        .theme
+        h1 6两会首日看点 政协七方面工作可圈可点
+        p &emsp;&emsp;中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。中国特色社会主义进入了新时代。希望大家承担记录新时代、书写新时代、讴歌新时代的使命，勇于回答时代课题，从当代中国的伟大创造中发现创作的主题、捕捉创新的灵感，深刻反映我们这个时代的历史巨变，描绘我们这个时代的精神图谱，为时代画像、为时代立传、为时代明德。
+
   //- 左右按钮
-  img.left.button(src="@|left.png|" o-hover="grow" o-tap="this.data.ElastiStack.last()")
-  img.right.button(src="@|right.png|" o-hover="grow" o-tap="this.data.ElastiStack.next()")
+  img.left.button.no-phone(src="@|left.png|" o-hover="grow" o-tap="this.data.ElastiStack.last()")
+  img.right.button.no-phone(src="@|right.png|" o-hover="grow" o-tap="this.data.ElastiStack.next()")
+  //- 手机左右按钮
+  img.phone-button.phone-left.no-pc(src="@|phone-last.png|" o-tap="this.data.ElastiStack.last()")
+  img.phone-button.phone-right.no-pc(src="@|phone-next.png|" o-tap="this.data.ElastiStack.next()")
+  // 手机页跳转打卡页
+  img.clock-in.no-pc(src="@|clock-in.png|" go="clock//moveToLeft/moveFromRight/true")
+
   //- 页码
-  ul.pagination
+  ul.pagination.pagination
   plug(_name="copyright" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
 </template>
 
 <script>
   module.exports = {
     data: {
-      ElastiStack: null
+      ElastiStack: null,
+      // 打卡列表
+      clockList: [true],
+      activeTheme: 0,
+      musicPlaying: false
     },
     created: function () {
-      // 生成index
-      const liNumber = this.queryAll('.elasticstack li')
+      // 生成卡片HTML
+      const periodsList = this.queryAll('.edit ul')
+     
+      // 期数选择
       let newHtml = ''
-      for (let index = 0; index < liNumber.length; index++) {
-        const element = liNumber[index];
-        newHtml += `<li o-hover="grow" o-tap="chacgeActive(${index})">${index + 1}</li>`
+      for (let index = 0; index < periodsList.length; index++) {
+        const element = periodsList[index];
+        newHtml += `<li o-tap="changePeriod(${index})">${index + 1}</li>`
+        
       }
-      this.query('.pagination').innerHTML = newHtml
       setTimeout(() => {
         this.handleEvent()
-        // 设置第一页为活跃页
-        this.query('.pagination li').classList.add('active')
+      }, 0);
+      this.query('.pagination').innerHTML = newHtml
+      this.changePeriod(periodsList.length - 1)
+      // 音乐播放回调
+      this.query('.musicPlay').ontimeupdate = (e) => {
+        var value = (e.target.currentTime / e.target.duration).toFixed(4) * 100; // console.log((e.target.currentTime / e.target.duration).toFixed(4) * 100 + '%')
+        this.query('.audio-bar .spot').style.left = value + '%';
+        this.query('.audio-bar .progress').style.width = value + '%';
+      }
+    },
+    changePeriod: function (index) {
+      // 生成卡片HTML
+      const periodsList = this.queryAll('.edit ul')
+      // 默认显示最后一期
+      this.data.activeTheme = parseInt(index)
+      this.query('.elasticstack').innerHTML = periodsList[this.data.activeTheme].innerHTML
+      // 设置第一页为活跃页
+      this.queryAll('.pagination li')[index].classList.add('active')
+
+      setTimeout(() => {
+        // 记录打卡信息
+        this.data.clockList[this.data.activeTheme] = true
+        const liList = this.queryAll('.pagination li')
+        for (let ind = 0; ind < liList.length; ind++) {
+          const element = liList[ind];
+          if (ind !== this.data.activeTheme) {
+            element.classList.remove('active')
+          } else {
+            // console.log(element)
+            element.classList.add('active')
+          }
+        }
+        // theme列表
+        // PC的话自动生成theme
+        const charList = ["一", "二", "三", "四", "五", "六", "七" , "八", "九", "十", "十一", "十二", "十三", "十四"]
+        const theme = screenInfo.isPc ? `第${charList[this.data.activeTheme]}期` : this.data.activeTheme + 1
+        const themeList = this.queryAll('.elasticstack .theme')
+        for (var index = 0; index < themeList.length; index++) {
+          themeList[index].innerHTML = theme
+        }
+        // this.handleEvent()
         this.data.ElastiStack = new ElastiStack(this.query('.elasticstack'), {
           loop: false,
           // handle: ".handle",
@@ -60,33 +180,69 @@
           distDragBack: 100,
           distDragMax: 200,
           // pc端禁止拖拽
-          enable: false,
+          enable: !screenInfo.isPc,
           atEnd: () => {
           },
           atStart: () => {
             // owo.tool.toast('已经是最前了!');
           },
           onUpdateStack: (activeIndex) => {
-            // console.log(activeIndex)
-            const liList = this.queryAll('.pagination li')
-            for (let index = 0; index < liList.length; index++) {
-              const element = liList[index];
-              
-              if (index !== activeIndex) {
-                element.classList.remove('active')
-              } else {
-                // console.log(element)
-                element.classList.add('active')
-              }
-            }
             this.data.activeIndex = activeIndex
+            const musicPlay = this.query('.musicPlay')
+            const music = this.queryAll('.elasticstack li')[activeIndex].querySelector('.audio')
+            if (music && music.innerText) {
+              this.query('.audio-box').style.display = 'block'
+              musicPlay.src = music.innerText
+              musicPlay.currentTime = 0
+              this.data.musicPlaying = true
+              musicPlay.play()
+            } else {
+              this.data.musicPlaying = false
+              musicPlay.pause()
+              this.query('.audio-box').style.display = 'none'
+            }
           }
         })
       }, 0);
     },
     chacgeActive: function (index) {
-      // console.log(index)
-      this.data.ElastiStack.jump(index)
+      this.data.ElastiStack.jump(parseInt(index))
+    },
+    setCookie: function (key, value, expiredays) {
+      // 存window.localStorage
+      if (window.localStorage && window.localStorage.setItem) {
+        window.localStorage.setItem(key, value)
+      }
+      expiredays = expiredays || 365
+      var exdate=new Date()
+      exdate.setDate(exdate.getDate()+expiredays)
+      document.cookie=key+ "=" +escape(value)+
+      ((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+    },
+    getCookie: function (key) {
+      if (document.cookie.length > 0) {
+        c_start=document.cookie.indexOf(key + "=")
+        if (c_start!=-1) { 
+          c_start=c_start + key.length+1 
+          c_end=document.cookie.indexOf(";",c_start)
+          if (c_end==-1) c_end=document.cookie.length
+          return unescape(document.cookie.substring(c_start,c_end))
+        } 
+      }
+      if (window.localStorage && window.localStorage.setItem && window.localStorage.getItem(key) !== null) {
+        return window.localStorage.getItem(key)
+      }
+      return ""
+    },
+    switchPlay: function () {
+      this.data.musicPlaying = !this.data.musicPlaying
+      if (this.data.musicPlaying) {
+        this.query('.musicPlay').play()
+        this.query('.audio-image').classList.remove('no-play')
+      } else {
+        this.query('.audio-image').classList.add('no-play')
+        this.query('.musicPlay').pause()
+      }
     }
   }
 </script>
@@ -105,7 +261,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 40%;
+  top: 27%;
   bottom: 0;
   margin: auto;
   li {
@@ -123,6 +279,8 @@
     p {
       font-size: 18px;
       line-height: 1.7;
+      height: 220px;
+      overflow: auto;
       img {
         margin-top: 8px;
         margin-right: 15px;
@@ -155,7 +313,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 32%;
+  top: 22%;
   bottom: 0;
   margin: auto auto;
   cursor: pointer;
@@ -187,11 +345,80 @@
     background-image: url('@|bar.png|');
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.8;
+    opacity: 1;
+    cursor: pointer;
   }
   li.active {
     opacity: 1;
     background-image: url('@|active-bar.png|');
   }
+}
+.phone-left {
+  position: absolute;
+  bottom: 3%;
+  height: 5vh;
+  left: 8vw;
+}
+.phone-right {
+  position: absolute;
+  bottom: 3%;
+  height: 5vh;
+  left: 20vh;
+}
+.edit {
+  display: none;
+}
+.progress {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  user-select: none;
+  pointer-events: none;
+  border-bottom: 1px solid red;
+}
+.spot {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  top: 12px;
+  border-radius: 50%;
+  left: 0;
+  position: relative;
+  user-select: none;
+  pointer-events: none;
+}
+.audio-bar {
+  float: right;
+  width: 90%;
+  height: 17px;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+.audio-image {
+  background-image: url('http://cpc.people.com.cn/img/MAIN/2019/03/119116/static/images/audio.png');
+  float: left;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 27px !important;
+  cursor: pointer;
+}
+.audio-image.no-play {
+  background-image: url('http://cpc.people.com.cn/img/MAIN/2019/03/119116/static/images/pause.png');
+}
+.audio-box {
+  position: absolute;
+  top: 0;
+  bottom: -53%;
+  margin: auto auto;
+  width: 900px;
+  height: 35px;
+  left: -30px;
+  right: 0;
+}
+.audio, .musicPlay {
+  display: none;
 }
 </style>

@@ -4,7 +4,6 @@ body, html {
   padding: 0;
   width: 100%;
   user-select: text;
-  min-width: 1200px;
   font-size: 14px;
   font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
   -webkit-overflow-scrolling: touch;
@@ -14,7 +13,7 @@ html {
   background-color: #efdbdc;
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-image: url("@|main.jpg|");
 }
 body, html, .page {
@@ -66,6 +65,10 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   margin: 0 auto;
 }
 
+.phone .no-phone, .pc .no-pc {
+  display: none;
+}
+
 .fl {
   float: left;
 }
@@ -94,4 +97,110 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1); /* older webkit */
 	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
 	transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
+}
+
+
+
+.phone #copyright {
+  display: none;
+}
+
+.phone .theme {
+  background-image: url('@|phone-theme.png|');
+  width: 72px;
+  height: 24px;
+  padding: 0;
+  text-align: center;
+  line-height: 24px;
+  background-position-x: 3px;
+  background-repeat: no-repeat;
+  left: auto;
+  right: 20px;
+  top: 10px;
+  font-size: 16px;
+}
+.phone .home {
+  background-image: url('@|phone-bg-2.jpg|');
+  background-size: 100% auto;
+  background-position: 0 0;
+}
+
+.phone .home .elasticstack {
+  width: 90%;
+  height: 85%;
+  top: -5%;
+  bottom: 0;
+  margin: auto;
+}
+
+.phone .home .elasticstack li {
+  width: 90%;
+  height: 96%;
+  padding: 2% 2%;
+  padding-left: 8%;
+  overflow: hidden;
+}
+
+.phone .home .elasticstack li h1 {
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.phone .home .elasticstack li p img {
+  width: 90%;
+  margin: 0 5%;
+  margin-bottom: 5px;
+}
+
+.phone .home .elasticstack li p {
+  font-size: 14px;
+  height: calc(100% - 135px);
+  overflow: auto;
+}
+
+.phone .home .pagination {
+  display: block;
+  width: 60px;
+  height: auto;
+  left: 0px;
+  right: auto;
+  background-image: none;
+  bottom: auto;
+  top: 14%;
+}
+
+.phone .home .pagination li {
+  margin: 0 0;
+  width: 40px;
+  height: 40px;
+  background-size: 35px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.phone .clock-in {
+  position: absolute;
+  bottom: 3%;
+  height: 5%;
+  right: 5%;
+}
+
+.phone .audio-box {
+  width: 80%;
+  bottom: -71%;
+  left: 0;
+  right: 0;
+}
+
+.phone .audio-bar {
+  width: calc(100% - 45px);
+}
+
+.phone .home .pagination li.active {
+  background-size: 40px;
+}
+
+.ie .home .pagination li {
+  float: left;
 }

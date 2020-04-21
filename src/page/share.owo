@@ -1,0 +1,63 @@
+<template lang="pug">
+.share
+  img.canvas-image
+  .scale-box
+    img.qr-code(src="@|qr-code.png|")
+    .clock-number
+</template>
+<script>
+module.exports = {
+  show: function () {
+    const clockList = owo.script.page.data.clockList
+    let clockNumber = 0
+    for (let index = 0; index < clockList.length; index++) {
+      const element = clockList[index];
+      if (element) {
+        clockNumber++
+      }
+    }
+    this.query('.clock-number').innerHTML = clockNumber
+    setTimeout(() => {
+      console.log(this.query('.canvas-image'))
+      html2canvas(document.body, {height: window.innerHeight}).then((canvas) => {
+        let base64Img = canvas.toDataURL('image/jpg')
+        this.query('.canvas-image').src = base64Img
+      });
+    }, 1000);
+  }
+}
+</script>
+<style lang="less">
+.scale-box {
+  background-image: url('@|share.jpg|');
+}
+.qr-code {
+  position: absolute;
+  left: 285px;
+  margin: auto;
+  top: 919px;
+  width: 179px;
+  height: 179px;
+}
+.clock-number {
+  position: absolute;
+  font-size: 103px;
+  color: #f6d19e;
+  width: 160px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  left: 269px;
+  top: 745px;
+  font-weight: bold;
+  z-index: 9;
+  letter-spacing: -11px;
+}
+.canvas-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  opacity: 0;
+}
+</style>

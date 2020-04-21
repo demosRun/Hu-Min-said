@@ -1,0 +1,95 @@
+<template lang="pug">
+.clock
+  .scale-box
+    .so-2
+      .card-box.clear
+        .card 第一期
+        .card 第二期
+        .card 第三期
+        .card 第四期
+        .card 第五期
+        .card 第六期
+        .card 第一期
+        .card 第一期
+        .card 第一期
+        .card 第一期
+        .card 第一期
+        .card 第一期
+        .card 第一期
+      .clock-number
+      img.so.so-0(src="@|132.png|" go="page//moveToRight/moveFromLeft/true")
+      img.so.so-1(src="@|131.png|" go="share//moveToLeft/moveFromRight/true")
+</template>
+<script>
+module.exports = {
+  show: function () {
+    const clockList = owo.script.page.data.clockList
+    const cardList = this.queryAll('.card-box .card')
+    let clockNumber = 0
+    for (let index = 0; index < clockList.length; index++) {
+      const element = clockList[index];
+      if (element) {
+        cardList[index].classList.add('active')
+        clockNumber++
+      }
+    }
+    this.query('.clock-number').innerHTML = clockNumber
+  }
+}
+</script>
+<style lang="less">
+.scale-box {
+  background-image: url('@|phone-bg-2.jpg|')
+}
+.so {position: absolute;}
+.so-0 {left: 363px;top: 873px;z-index: 2;background-image: url('@|132.png|');}
+.so-1 {left: 61px;top: 873px;z-index: 1;}
+.so-2 {
+  left: 0px;top: 0px;
+  z-index: 0;
+  background-image: url('@|135.png|');
+  width: 666px;
+  height: 1088px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto auto;
+  position: absolute;
+}
+.card-box {
+  width: 624px;
+  margin: 45px 23px;
+}
+.card {
+  background-image: url('@|clock.png|');
+  background-repeat: no-repeat;
+  background-color: #c8986e;
+  width: 120px;
+  height: 120px;
+  background-position: center 9px;
+  border-radius: 20px;
+  color: #d9b79a;
+  font-size: 23px;
+  text-align: center;
+  line-height: 200px;
+  float: left;
+  margin: 18px;
+}
+.card.active {
+  color: #fff3d5;
+  background-image: url('@|clock-active.png|');
+}
+.clock-number {
+  position: absolute;
+  font-size: 80px;
+  color: #a4050e;
+  width: 160px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  left: 330px;
+  top: 716px;
+  font-weight: bold;
+}
+</style>
