@@ -105,6 +105,11 @@
 		{
 			"name": "html2canvas",
 			"src": "./owo_modules/html2canvas.min.js"
+		},
+		{
+			"name": "toast",
+			"afterbody": true,
+			"src": "./owo_modules/toast.js"
 		}
 	],
 	"styleList": [

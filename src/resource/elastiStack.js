@@ -140,7 +140,8 @@
       this.options.atEnd();
       return;
     }
-
+    this.current++; // reorder stack
+    this.options.onUpdateStack(this.current)
 
     this._disableDragg(); 
     
@@ -163,10 +164,6 @@
         // console.log('移动结束')
         element.style.display = 'none';
       }
-      // 前进
-
-
-      self.current++; // reorder stack
       // 循环
 
       if (self.current < 0) self.current = self.itemsCount - 1;
@@ -179,9 +176,6 @@
 
 
       self._initEvents(); // callback
-
-
-      self.options.onUpdateStack(self.current);
     };
 
     element.addEventListener(transEndEventName, onEndTransFn);
@@ -205,7 +199,9 @@
     last.style.display = 'block';
     // 判断是否允许循环
 
-    if (this.options.loop && !last) last = this.items[this.items.length - 1]; // 禁止拖动
+    if (this.options.loop && !last) last = this.items[this.items.length - 1];
+    this.current--;
+    this.options.onUpdateStack(this.current)
 
     this._disableDragg();
 
@@ -220,7 +216,6 @@
     setTimeout(function () {
       last.style.opacity = 1; // 前进
 
-      self.current--; // reorder stack
       // 循环
 
       if (self.current < 0) self.current = self.itemsCount - 1;
@@ -233,9 +228,6 @@
 
 
       self._initEvents(); // callback
-
-
-      self.options.onUpdateStack(self.current);
     }, 200);
   };
 
