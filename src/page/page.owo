@@ -173,9 +173,24 @@
         // PC的话自动生成theme
         const theme = screenInfo.isPc ? `第${this.data.charList[this.data.activeTheme]}期` : this.data.activeTheme + 1
         const themeList = this.queryAll('.elasticstack .theme')
-        console.log(themeList)
         for (var index = 0; index < themeList.length; index++) {
           themeList[index].innerHTML = theme
+        }
+        // 判断第一项是否有音乐
+        const music = this.query('.elasticstack li').querySelector('.audio')
+        const musicPlay = this.query('.musicPlay')
+        this.data.musicPlaying = false
+        if (music) {
+          musicPlay.src = music.innerText
+          musicPlay.currentTime = 0
+          musicPlay.play()
+          
+          
+          this.query('.audio-box').style.display = 'block'
+        } else {
+          musicPlay.currentTime = 0
+          musicPlay.pause()
+          this.query('.audio-box').style.display = 'none'
         }
         // this.handleEvent()
         this.data.ElastiStack = new ElastiStack(this.query('.elasticstack'), {
